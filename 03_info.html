@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="css/styles_info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Global Lingua</title>
+</head>
+<body>
+    <header>
+        <h2>Academia Global Lingua</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="01_oferta.html">Oferta Academica</a></li>
+                <li><a href="02_sucursales.html">Sucursales</a></li>
+                <li><a href="03_info.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="info">
+            <h2>Formulario de Registro</h2>
+            <br>
+            <form action="" method="POST">
+                  <fieldset>
+                    <legend>Datos Personales</legend>
+                    <br>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="nombre" required>
+                    <br>
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" min="0" max="120">
+                    <br>
+                    <label for="gen">Género:</label>
+                    <br>
+                    <input type="radio" name="gen">Femenino
+                    <input type="radio" name="gen">Masculino
+                    <input type="radio" name="gen">Otro
+                </fieldset>
+                <fieldset>
+                    <legend>Inscripción</legend>
+                    <label for="idioma">Idioma que estudiarás:</label>
+                    <br>
+                    <input type="radio" name="idioma">Inglés
+                    <input type="radio" name="idioma">Francés
+                    <input type="radio" name="idioma">Alemán
+                    <br>
+                    <label for="sede">Sede:</label>
+                    <br>
+                    <input type="radio" name="sede">Sede Via Alta
+                    <input type="radio" name="sede">Sede Altacia
+                    <input type="radio" name="sede">Sede Mariano Escobedo
+                    <input type="radio" name="sede">Sede Timoteo Lozano
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Medio de Contacto</legend>
+                    <label for="email">Correo: </label>
+                    <input type="email" name="email">
+                    <br>
+                    <label for="telefono">Numero telefonico:</label>
+                    <input type="number" name="telefono">
+                    <br>
+                </fieldset>
+                    <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </main>
+    <footer>
+            <p>&copy; 2025 Academia Global Lingua | Contacto: globallingua@gmail.com</p>
+            <nav>
+                <a href="https://facebook.com/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://tiktok.com/" target="_blank">
+                    <i class="fab fa-tiktok"    ></i>
+                </a>
+                <a href="https://instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </nav>
+        </footer>
+</body>
+</html>
