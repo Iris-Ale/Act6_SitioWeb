@@ -110,6 +110,11 @@ section #oferta img {
     max-width: 140px;
     height: auto;
     padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+section #oferta img:hover {
+    transform: translateY(-20px);
 }
 
 section #oferta article {

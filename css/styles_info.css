@@ -45,13 +45,21 @@ header nav ul li a:hover{
 }
 
 /*FORMULARIO*/
-#info {
-    margin-left: 250px;
-    margin-right: 250px;
-    background-color: #508b9bc8;
-    padding-bottom: 25px;
+#info h2 {
+    text-transform: uppercase;
+    color: #1E3A5F;
 }
 
+#info {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #508b9bc8;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*editar boton de enviar*/
 input[type="submit"] {
   color: white;
   width: 20%;
@@ -60,11 +68,6 @@ input[type="submit"] {
   font-size: 1.2em;
   padding: 10px;
   margin-top: 15px;
-  margin-left: 40%;
-}
-
-input [type="radio"] text {
-
 }
 
 legend{
@@ -72,10 +75,10 @@ legend{
     color:#1E3A5F;
     text-align: center;
 }
+
 label{
     font-size: 1.2em;
     text-align: center;
-    
 }
 
 fieldset {
